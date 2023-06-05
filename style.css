@@ -283,6 +283,7 @@ nav {
 .slider {
 	display: flex;
 	height: 504px;
+	overflow-x:hidden;
 }
 .card {
 	flex: 0 0 50%;
