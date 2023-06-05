@@ -12,4 +12,4 @@
 
 ## Demo
 
-URL:https://flexboxpractice1.netlify.app/
+URL:https://1flexboxpractice.netlify.app/
