@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+
+		<title>flexboxpractice</title>
+	</head>
+	<body id = "body-container">
+		<header>
+			<nav>
+				<div class="upper-nav">
+					<p>Order Status</p>
+					<p>Blog</p>
+					<p>Business</p>
+					<p>French</p>
+				</div>
+				<div class="lower-nav">
+					<div class = "search-container white-bg">
+						<div class="search-input"><input type="text"
+							 class ="search-bar"  placeholder="Search"></div>
+						<div class="search-icon"><i class="fas fa-search fa-lg"></i>
+						</div>
+					</div>
+					<div class = "secondary-nav">
+						<div class = "nav-icon">
+							<div>
+							<i class="fa-sharp fa-solid fa-store fa-lg"></i>
+						</div>
+						<div>
+							<label class = "nav-label">Store</label>
+						</div>
+						</div>
+						<div class = "nav-icon">
+							<div>
+							<i class=" fa-solid fa-user fa-lg"></i>
+						</div>
+						<div>
+							<label class = "nav-label">Account</label>
+						</div>
+						</div>
+						<div class = "nav-icon">
+							<div>
+							<i class="fa-sharp fa-solid fa-cart-shopping fa-lg"></i>
+						</div>
+						<div>
+							<label class = "nav-label">Cart</label>
+						</div>
+						</div>
+					</div>
+					<div class = "primary-nav">
+						<div class = "hamburger-icon">
+							<i class=" fa-solid fa-bars fa-lg" id = "menuIcon"></i>
+						</div>
+					</div>
+					<div class= "menu-wrapper-sm">
+						<ul>
+							<li>
+								<div class = "menu-item-sm">
+								<div><i class="fa-sharp fa-solid fa-shop fa-sm"></i></div>
+								<div class = "item-name">Shop</div>
+								<div class = "right-arrow-menu"><i class="fa-solid fa-arrow-right"></i></div>
+							</div></li>
+							<li>
+								<div class = "menu-item-sm">
+									<div><i class="fa-sharp fa-solid fa-building fa-lg"></i></div>
+									<div class = "item-name">Brands</div>
+									<div class = "right-arrow-menu"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</li>
+							<li>
+								<div class = "menu-item-sm">
+									<div><i class=" fa-solid fa-dollar-sign fa-lg"></i></div>
+									<div class = "item-name">Deals</div>
+									<div class = "right-arrow-menu"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</li>
+							<li>
+								<div class = "menu-item-sm">
+									<div><i class="fa-solid fa-wrench"></i></div>
+									<div class = "item-name">Service</div>
+									<div class = "right-arrow-menu"><i class="fa-solid fa-arrow-right"></i></div>
+								</div>
+							</li>
+						</ul>
+						<div class = "upper-nav-sm">Order Status</div>
+						<div class = "upper-nav-sm">Blog</div>
+						<div class = "upper-nav-sm">Business</div>
+						<div class = "upper-nav-sm">French</div>
+					</div>
+					
+				</div>
+				<div class = primary-nav-lg>
+					<div class = "primary-nav-lg-item1">
+						<div class = "lg-item-shop">Shop</div>
+						<div><i class="fa-solid fa-arrow-down" id="shop-item"></i></div>
+					</div>
+					<div class = "primary-nav-lg-item2">
+						<div  class = "lg-item-brands">Brands</div>
+						<div><i class="fa-solid fa-arrow-down" id = "brands-item"></i></div>
+					</div>
+					<div class = "primary-nav-lg-item3">
+						<div  class = "lg-item-deals">Deals</div>
+						<div><i class="fa-solid fa-arrow-down" id ="deals-item"></i></div>
+					</div>
+					<div class = "primary-nav-lg-item4">
+						<div  class = "lg-item-services">Services</div>
+						<div><i class="fa-solid fa-arrow-down" id = "services-item"></i></div>
+					</div>
+				</div>
+				<div class="menu-wrapper-lg-shop">
+					<div class = "dropdown-title-large">Shop By Category</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Computers, Tablets, & Accessories</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Cell Phones and Accessories</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Office Suplies & Ink</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">TV & Home Theatre</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Headphones, Speakers, & Audio</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Camera, Camcorders, & Drones</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Car Tech and GPS</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Appliances</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Smart Home</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Home Living</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Baby & Maternity</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Video Games & VR</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Wearable Technology</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Health & Fitness</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Sports, Recration, & Transportation</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Movie & Music</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Musical Instruments & Equipment</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Toys, Games, & Education</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Beauty</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Personal Care</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Travel, Luggage, & Bags</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Watches, Jewelry, & Fashion</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Gift Cards</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+				</div>
+				<div class="menu-wrapper-lg-brands">
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">Popular Brands</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">A B</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">C D E F</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">G H I K</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">L M N O</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">P Q R S</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+					<div class = "dropdown-item-large">
+						<div class = "dropdown-name-large">T U V W X Y Z</div>
+						<div  class = "dropdown-icon-large"><i class="fa-solid fa-arrow-right"></i></div>
+					</div>
+				</div>
+				<div class="menu-wrapper-lg-deals">
+					<div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Top Deals</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Outlet</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Open Box Products</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Refurbished</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Clearance Products</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-wrapper-lg-services">
+					<div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Squad Services</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Trade-In Program</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Monthly Subscription</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Electronics Recycling</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Membership</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Protection</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Business</div>
+						</div>
+						<div class = "dropdown-item-large">
+							<div class = "dropdown-name-large">Health</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main id = "background-fade">
+			<section id="general">
+
+				<div class="slider">
+					<div class="card d1 white active">
+						<div class="d1-container">
+						<div class = "d1-title">Discover <span class = "yellow">Samsung</span> Shopping Event</div>
+						<div class="d1-desc white">
+							Recycle, get connected, and save big on home theatre, major appliances, and more from Samsung.
+						</div>
+						<div><button class="btn btn-medium blue">Shop Now</button></div>
+					</div>
+					</div>
+					<div class="card d2">
+						<div class="d2-c1">
+							<div class="c1-item1">
+								<img src="img/top_deal.webp" alt="Top Deal" /></div>
+							<div class="c1-item2">
+								<h3 class="white c1-item2-text">
+									Find the best offers from our latest sales, all in one place.
+								</h3>
+								<div><button class="btn blue">Shop Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="d2-c2">
+							<div class="c2-item1">
+								<img src="img/laptop1.webp" alt="Laptop" />
+							</div>
+							<div class="c2-item2">Save up to $150 on select laptops</div>
+							<div class="c2-item3">
+								<div><button class="btn blue-bg white">Explore More</button></div>
+							</div>
+						</div>
+						<div class="d2-c3">
+							<div class="c3-item1">
+								<img src="img/bike1.webp" alt="Bike" />
+							</div>
+							<div class="c3-item2">
+								Save up to $400 on select electric bikes.
+							</div>
+							<div class="c3-item3">
+								<div><button class="btn blue-bg white">Shop Now</button></div>
+							</div>
+						</div>
+					</div>
+					<div class="card d3">
+						<div class="d3-img">
+							<img src="img/laptop1.webp" alt="Laptop" />
+						</div>
+						<div class = "d3-child2">
+						<div class="d3-text">Save up to $150 on select laptops</div>
+						<div>
+							<div><button class="btn blue-bg white">Explore More</button></div>
+						</div>
+						</div>
+					</div>
+					<div class="card d4">
+						<div class="d4-img">
+							<img src="img/bike1.webp" alt="Bike" />
+						</div>
+						<div class = "d4-child2">
+						<div class="d4-text">
+							Save up to $400 on select electric bikes.
+						</div>
+						<div >
+							<div><button class="btn blue-bg white">Shop Now</button></div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="button-container">
+					<label id="button1">
+						<input type="radio" name="radio" />
+					</label>
+					<label id="button2">
+						<input type="radio" name="radio" />
+					</label>
+					<label id="button3">
+						<input type="radio" name="radio" />
+					</label>
+					<label id="button4">
+						<input type="radio" name="radio" />
+					</label>
+				</div>
+			</section>
+
+			<section id="hot-offers">
+				<!-- Our hottest offers section -->
+				<h2>Our hottest offers</h2>
+				<div class="flex-container">
+					<div class="offers-flex">
+						<div class="offer-img1">
+							
+						</div>
+						<div class="offer-desc">Save up to $300 on select big screen TVs.</div>
+						<div class="shop-now blue">Shop now</div>
+					</div>
+					<div class="offers-flex">
+						<div class="offer-img2">
+							
+						</div>
+						<div class="offer-desc">Save up to $100 on select air conditioners and fans.</div>
+						<div class="shop-now blue">Shop now</div>
+					</div>
+					<div class="offers-flex">
+						<div class="offer-img3">
+							
+						</div>
+						<div class="offer-desc">Get 20GB of data for $39/month with select carriers.*</div>
+						<div class="explore-deal blue">Explore the deal</div>
+					</div>
+					<div class="offers-flex">
+						<div class="offer-img4">
+							
+						</div>
+						<div class="offer-desc">Get 40GB of data for $50/month with Freedom Mobile that you can use in Canada and the United States.*</div>
+						<div class="explore-deal blue">Explore the deal</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="shop-by-category">
+				<!-- Shop by category section -->
+				<h2>Shop by category</h2>
+				<div class="flex-container">
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_tv.webp" alt="TVs" />
+						</div>
+						<div class="category-desc">TVs, Home Theatre, and Accessories</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_comp.webp" alt="Computers" />
+						</div>
+						<div class="category-desc">Computers and Tablets</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_comp_acc.webp" alt="Computers Accessories" />
+						</div>
+						<div class="category-desc">Computer Accessories</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_smart.webp" alt="Smart Home" />
+						</div>
+						<div class="category-desc">Smart Home</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_cell.webp" alt="Cell Phones" />
+						</div>
+						<div class="category-desc">Cell Phones and Plans</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_headphone.webp" alt="Cell Phones" />
+						</div>
+						<div class="category-desc">Headphones and Portable Speakers</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_appliances.webp" alt="Major Appliances" />
+						</div>
+						<div class="category-desc">Major Appliances</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_kitchen.webp" alt="Small Kitchen Appliances" />
+						</div>
+						<div class="category-desc">Small Kitchen Appliances</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_games.jpeg" alt="Video Games" />
+						</div>
+						<div class="category-desc">
+							Video Games, Consoles, and Accessories
+						</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_pc.webp" alt="PC" />
+						</div>
+						<div class="category-desc">PC Gaming</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_wearable.webp" alt="Wearable Technology" />
+						</div>
+						<div class="category-desc">Wearable Technology</div>
+					</div>
+					<div class="category-flex">
+						<div class="category-img">
+							<img src="img/cat_camera.webp" alt="Camera" />
+						</div>
+						<div class="category-desc">Cameras, Camcorders, and Drones</div
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="script.js"></script>
+		<script
+		src="https://kit.fontawesome.com/91cb2706b9.js"
+		crossorigin="anonymous"
+	></script>
+	</body>
+</html>
